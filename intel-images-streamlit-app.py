@@ -46,4 +46,4 @@ if st.button('Submit'):
         classification = 'Street'
 
     st.write('Your image prediction is:   ', classification)
-    st.write('Probability:   ', pred.max())
+    st.write('Probability:   ', str(pred.max()))
